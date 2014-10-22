@@ -48,6 +48,8 @@
     <profile>
       <id>hbase-hadoop2</id>
       <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
         <property>
           <name>hbase.profile</name>
           <value>hadoop2</value>

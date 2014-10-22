@@ -1084,6 +1084,9 @@
 
     <profile>
       <id>hadoop-2.3</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <properties>
         <hadoop.version>2.3.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
@@ -1109,6 +1112,9 @@
 
     <profile>
       <id>yarn</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>yarn</module>
       </modules>
