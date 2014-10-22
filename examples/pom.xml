@@ -50,11 +50,6 @@
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
-        <property>
-          <name>hbase.profile</name>
-          <value>hadoop2</value>
-        </property>
-      </activation>
       <properties>
         <hbase.version>0.98.1-hadoop2</hbase.version>
       </properties>
